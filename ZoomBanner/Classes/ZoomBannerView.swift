@@ -183,7 +183,6 @@ extension ZoomBannerView: UIScrollViewDelegate {
         }
         guard let cell = centerCell else { return }
         
-        let centerPoint = cell.convert(cell.bounds, from: self)
         guard let indexPath = self.collectionView.indexPath(for: cell) else { return }
         let x = CGFloat((indexPath.item))*(self.cellSize.width + space) - (self.frame.size.width/2 - self.cellSize.width/2)
         self.collectionView.setContentOffset(CGPoint(x: x, y: 0), animated: true)
