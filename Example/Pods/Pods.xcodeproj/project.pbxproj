@@ -16,6 +16,7 @@
 		6F03052D7F28DF7FB19D957B7A19333C /* Pods-ZoomBanner_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B339C7F233A98E2711F022388FDB7FE /* Pods-ZoomBanner_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7D14049438CF89A2C9D0DC59D510180D /* ZoomBanner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 59D7EA4E8590390D1A84C67ED303EEB1 /* ZoomBanner-dummy.m */; };
 		B6DAA33945421E68961A1BAB5CCBA100 /* ZoomBanner-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B5C7C50DD47EE3D29850CD8A22D628C5 /* ZoomBanner-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CEB391F32B46C77B009CC3B8 /* ZoomBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD34E4B1898CB76D2D2BF37E7C13A1A8 /* ZoomBannerView.swift */; };
 		F562FBEB3D5F9DA5A8D944D392304A60 /* Pods-ZoomBanner_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 39204E6E4F9F7EB52463B337A35F193A /* Pods-ZoomBanner_Example-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -43,8 +44,8 @@
 		1017697ACE6EDF45E1810F169DF8EDF1 /* Pods-ZoomBanner_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZoomBanner_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		1639A7FE5B64F1E1CE0151E602C1B9F0 /* ZoomBanner-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZoomBanner-prefix.pch"; sourceTree = "<group>"; };
 		23A05AE648C2E9AEB8B4918F14373C16 /* Pods-ZoomBanner_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ZoomBanner_Example"; path = Pods_ZoomBanner_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		32F190BBE68D11E2AF376B8A16199095 /* ZoomBanner.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ZoomBanner.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		3549FA99AA47A7E936D79DE9B33B3B17 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		32F190BBE68D11E2AF376B8A16199095 /* ZoomBanner.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ZoomBanner.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3549FA99AA47A7E936D79DE9B33B3B17 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		39204E6E4F9F7EB52463B337A35F193A /* Pods-ZoomBanner_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZoomBanner_Example-dummy.m"; sourceTree = "<group>"; };
 		424138817525B54B523515B0873DE4FA /* Pods-ZoomBanner_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZoomBanner_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4678185E94C8B5C9AE3D3D5F49C1BA39 /* Pods-ZoomBanner_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZoomBanner_Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -54,9 +55,9 @@
 		78E6D9397ACF74F522F192A90EC9DFE0 /* Pods-ZoomBanner_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZoomBanner_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		7F6B64172AE911110209087993DBC5FC /* Pods-ZoomBanner_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZoomBanner_Example.release.xcconfig"; sourceTree = "<group>"; };
 		8651E3E94946145E410813B5D34AF5C3 /* Pods-ZoomBanner_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZoomBanner_Tests.modulemap"; sourceTree = "<group>"; };
-		899DEB60F04A18AAA8CDB46F88B389A6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		899DEB60F04A18AAA8CDB46F88B389A6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		9BD531BE7EF1282253CF8008D9FCF659 /* ZoomBanner */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZoomBanner; path = ZoomBanner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9FFCAB2FF15A8D5534C5EE030FE13419 /* Pods-ZoomBanner_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZoomBanner_Tests-Info.plist"; sourceTree = "<group>"; };
 		A8DA075CB1EA95BFD580EE7532E2982B /* Pods-ZoomBanner_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZoomBanner_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B08B3F3835638A7B1E8B610A3C8F379C /* Pods-ZoomBanner_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZoomBanner_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -368,6 +369,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F562FBEB3D5F9DA5A8D944D392304A60 /* Pods-ZoomBanner_Example-dummy.m in Sources */,
+				CEB391F32B46C77B009CC3B8 /* ZoomBannerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -526,8 +528,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

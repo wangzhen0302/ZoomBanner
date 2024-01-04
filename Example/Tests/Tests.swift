@@ -1,5 +1,4 @@
 import XCTest
-import ZoomBanner
 
 class Tests: XCTestCase {
     

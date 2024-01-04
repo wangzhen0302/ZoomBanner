@@ -35,7 +35,7 @@ class ZoomBannerView: UIView {
     }
     private var timerInterval: CGFloat?
     func timerAction() {
-        guard let cells = self.collectionView.visibleCells as? [UICollectionViewCell],var rightCell = cells.first else {
+        guard let cells = self.collectionView.visibleCells as? [AICollectionViewCell],var rightCell = cells.first else {
             return
         }
         for cell in cells {
@@ -93,7 +93,7 @@ class ZoomBannerView: UIView {
         collectionView.clipsToBounds = false
 //        collectionView.decelerationRate = .fast
         collectionView.showsHorizontalScrollIndicator = false
-        collectionView.register(UICollectionViewCell.self, forCellWithReuseIdentifier: "UICollectionViewCell")
+        collectionView.register(AICollectionViewCell.self, forCellWithReuseIdentifier: "AICollectionViewCell")
         return collectionView
     }()
 
@@ -128,7 +128,7 @@ extension ZoomBannerView: UICollectionViewDelegate, UICollectionViewDataSource {
 //            return UICollectionViewCell()
 //        }
         
-        guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "UICollectionViewCell", for: indexPath) as? UICollectionViewCell else {
+        guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "AICollectionViewCell", for: indexPath) as? AICollectionViewCell else {
             return UICollectionViewCell()
         }
 //        let item = indexPath.item%(self.items?.count ?? 0)
@@ -138,6 +138,9 @@ extension ZoomBannerView: UICollectionViewDelegate, UICollectionViewDataSource {
 //        cell.setModel(model: model)
         return cell
     }
+}
+class AICollectionViewCell: UICollectionViewCell {
+    
 }
 extension ZoomBannerView: UIScrollViewDelegate {
     
