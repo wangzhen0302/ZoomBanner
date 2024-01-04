@@ -1,5 +1,5 @@
 PODS:
-  - ZoomBanner (0.1.0)
+  - ZoomBanner (0.1.3)
 
 DEPENDENCIES:
   - ZoomBanner (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ZoomBanner: c04fabaae39d301634630e7089ca1a910c58c48d
+  ZoomBanner: 3d94c289696d6c04c0a4f7ada3d4513c491a0967
 
 PODFILE CHECKSUM: 1abf96ca6863f74194d8700fb32fee4e01889b9f
 
