@@ -1,0 +1,6 @@
+framework module ZoomBanner {
+  umbrella header "ZoomBanner-umbrella.h"
+
+  export *
+  module * { export * }
+}

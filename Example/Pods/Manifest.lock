@@ -1,0 +1,16 @@
+PODS:
+  - ZoomBanner (0.1.0)
+
+DEPENDENCIES:
+  - ZoomBanner (from `../`)
+
+EXTERNAL SOURCES:
+  ZoomBanner:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZoomBanner: c04fabaae39d301634630e7089ca1a910c58c48d
+
+PODFILE CHECKSUM: 1abf96ca6863f74194d8700fb32fee4e01889b9f
+
+COCOAPODS: 1.11.2
