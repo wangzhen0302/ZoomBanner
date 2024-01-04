@@ -70,7 +70,7 @@ class ZoomBannerView: UIView {
                         guard let self = self else { return }
                         self.timerAction()
                     })
-                    RunLoop.current.add(self.timer!, forMode: RunLoopMode.defaultRunLoopMode)
+                    RunLoop.current.add(self.timer!, forMode: .common)
                     self.timer?.fire()
                 }
                 self.scrollToIndex()

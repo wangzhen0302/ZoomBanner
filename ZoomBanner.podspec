@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZoomBanner'
-  s.version          = '0.1.5'
+  s.version          = '0.1.7'
   s.summary          = 'This is a ZoomBanner to iOS developer'
 
 # This description is used to generate tags and improve search results.
