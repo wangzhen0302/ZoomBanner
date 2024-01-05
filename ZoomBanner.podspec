@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZoomBanner'
-  s.version          = '0.1.10'
+  s.version          = '0.1.12'
   s.summary          = 'This is a ZoomBanner to iOS developer'
 
 # This description is used to generate tags and improve search results.
@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/wangzhen0302/ZoomBanner'
+  s.homepage         = 'https://github.com/wangzhen0302/WZSpecs'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'wangzhen0302' => 'winston.wang@uptech.ai' }
